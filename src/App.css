@@ -1,0 +1,63 @@
+.weatherBg {
+  background: url("D:\pr1003\weatherapp\src\istockphoto-1127710944-612x612.jpg");
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  color: lightblue;
+  font-weight: 650;
+}
+
+.weatherResultBox {
+  background: url("https://www.accuweather.com/images/hero/4/1440x450.jpg");
+}
+
+.weatherIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.weatherCard {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.weatherTemp {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.weatherCity {
+  font-size: 35px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.weatherTime {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.weatherDate {
+  font-size: 15px;
+  color: #fff;
+}
+
+.weatherMinMax {
+  font-size: 14px;
+  color: #000;
+  margin: 5px 0;
+}
+
+.weatherInfo {
+  font-size: 12px;
+  color: #000;
+  margin: 5px 0;
+}
